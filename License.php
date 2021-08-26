@@ -242,14 +242,14 @@ class License
 		$results["status"] = "Active";
 		$results["key"] = $S['licensekey'];
 		$results["registeredname"] = "KienThucSystem";
-		$results["productname"] = "WHMCS 8.2.0 - Nulled By KienThucSystem";
+		$results["productname"] = "WHMCS 8.2.1 - Nulled By KienThucSystem";
 		$results["productid"] = "5";
 		$results["billingcycle"] = "One Time";
 		$results["validdomains"] = $this->getHostDomain();
 		$results["validips"] = $this->getHostIP();
 		$results["validdirs"] = $this->getHostDir();
 		$results["checkdate"] = Carbon::now()->toDateString();
-		$results["version"] = "8.2.0";
+		$results["version"] = "8.2.1";
 		$results["regdate"] = "2019-9-1";
 		$results["nextduedate"] = "2099-12-31";
 		$results["addons"] = array(array('name' => 'Branding Removal', 'nextduedate' => '2050-11-15', 'status' => 'Active'), array('name' => 'Support and Updates', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'Project Management Addon', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'Licensing Addon', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'Mobile Edition', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'iPhone App', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'Android App', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'Configurable Package Addon', 'nextduedate' => '2099-12-31', 'status' => 'Active'), array('name' => 'Live Chat Monthly No Branding', 'nextduedate' => '2099-12-31', 'status' => 'Active'));
